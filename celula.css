@@ -1,6 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+.conteudo {
+    margin-inline-start: 30px;
+}
+
+footer {
+    background: #11101d;
+    text-align: center;
+    color: #fff;
 }
