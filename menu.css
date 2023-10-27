@@ -90,7 +90,6 @@
 }
 .sidebar.close .nav-links i.arrow{
     display: none;
-    margin-right: 5px;
 }
 .sidebar .nav-links li a{
     display: flex;
@@ -264,14 +263,4 @@
         width: 100%;
         left: 0;
     }
-}
-
-.conteudo {
-    margin-inline-start: 30px;
-}
-
-footer {
-    background: #11101d;
-    text-align: center;
-    color: #fff;
 }
