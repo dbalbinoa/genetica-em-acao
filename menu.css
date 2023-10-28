@@ -304,6 +304,9 @@ html ::-webkit-scrollbar-track {
     .sidebar{
         width: 260px;
     }
+    .sidebar .nav-links{
+        position: fixed;
+    }
     .sidebar.close{
         width: 0;
     }
@@ -318,8 +321,7 @@ html ::-webkit-scrollbar-track {
         left: 0;
     }
     .home-content{
-        display: block;
-        position: fixed;
-        background: #E4E9F7;
+        postion: fixed;
+        background-color: #3863db;
     }
 }
