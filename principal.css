@@ -1,5 +1,6 @@
 #img-principal{
-    margin-left: 50px;
+    display: flex;
+    margin: auto;
     height: auto; 
     width: auto; 
     max-width: 500px;
