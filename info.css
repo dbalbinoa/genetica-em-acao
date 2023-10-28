@@ -1,0 +1,20 @@
+.imagens-legendas {
+    display: flex;
+    justify-content: center;
+}
+
+.img-leg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.imagem {
+    max-width: 100%;
+    max-height: 500px;
+}
+
+.legenda {
+    text-align: center;
+}
