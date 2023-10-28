@@ -311,6 +311,7 @@ html ::-webkit-scrollbar-track {
         left: 260px;
         width: calc(100% - 260px);
         z-index: 100;
+        min-width: 100vw;
     }
     .sidebar.close ~ .home-section{
         width: 100%;
