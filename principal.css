@@ -1,9 +1,7 @@
-.conteudo {
-    margin-inline-start: 30px;
-}
-
-footer {
-    background: #11101d;
-    text-align: center;
-    color: #fff;
+#img-principal{
+    margin-left: 50px;
+    height: auto; 
+    width: auto; 
+    max-width: 500px;
+    max-height: 500px;
 }
