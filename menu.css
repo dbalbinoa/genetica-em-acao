@@ -263,7 +263,7 @@ body{
     font-weight: 600;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
     .sidebar.close{
         width: 0;
     }
