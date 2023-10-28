@@ -302,7 +302,7 @@ html ::-webkit-scrollbar-track {
 
 @media (max-width: 400px) {
     .sidebar{
-        width: 260px;
+        width: 78px;
         z-index: 100;
     }
     .sidebar .nav-links{
@@ -312,8 +312,8 @@ html ::-webkit-scrollbar-track {
         width: 0;
     }
     .home-section{
-        left: 260px;
-        width: calc(100% - 260px);
+        left: 78px;
+        width: calc(100% - 78px);
         min-width: 100vw;
     }
     .sidebar.close ~ .home-section{
@@ -322,6 +322,8 @@ html ::-webkit-scrollbar-track {
     }
     .home-content{
         position: fixed;
-        background-color: #3863db;
+        background-color: #ededed;
+        min-width: 100%;
+        z-index: 99;
     }
 }
