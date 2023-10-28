@@ -318,12 +318,10 @@ html ::-webkit-scrollbar-track {
         left: 0;
     }
     .home-content{
-        position: fixed;
+        display: block;
+        background: #E4E9F7;
     }
     .conteudo {
         margin-top: 60px;
-    }
-    footer {
-        display: none;
     }
 }
