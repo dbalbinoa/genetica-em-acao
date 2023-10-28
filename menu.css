@@ -321,7 +321,4 @@ html ::-webkit-scrollbar-track {
         display: block;
         background: #E4E9F7;
     }
-    .conteudo {
-        margin-top: 60px;
-    }
 }
