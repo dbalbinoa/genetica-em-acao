@@ -24,4 +24,8 @@
         width: 100px;
         height: 100px;
     }
+    .imagens-legendas{
+        display: flex;
+        flex-direction: column;
+    }
 }
