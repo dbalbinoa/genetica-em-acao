@@ -326,4 +326,7 @@ html ::-webkit-scrollbar-track {
         min-width: 100%;
         z-index: 99;
     }
+    footer{
+        display: none;
+    }
 }
