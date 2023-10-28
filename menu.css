@@ -319,6 +319,7 @@ html ::-webkit-scrollbar-track {
     }
     .home-content{
         display: block;
+        position: fixed;
         background: #E4E9F7;
     }
 }
