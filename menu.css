@@ -305,9 +305,6 @@ html ::-webkit-scrollbar-track {
         width: 78px;
         z-index: 100;
     }
-    .sidebar .nav-links{
-        position: fixed;
-    }
     .sidebar.close{
         width: 0;
     }
@@ -322,9 +319,12 @@ html ::-webkit-scrollbar-track {
     }
     .home-content{
         position: fixed;
-        background-color: #ededed;
+        background-color: #c7a66a;
         min-width: 100%;
         z-index: 99;
+    }
+    .conteudo{
+        margin-top: 70px;
     }
     footer{
         display: none;
