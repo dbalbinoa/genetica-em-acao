@@ -263,30 +263,6 @@ body{
     font-weight: 600;
 }
 
-@media (max-width: 400px) {
-    .sidebar{
-        width: 260px;
-    }
-    .sidebar.close{
-        width: 0;
-    }
-    .home-section{
-        left: 260px;
-        width: calc(100% - 260px);
-        z-index: 100;
-    }
-    .sidebar.close ~ .home-section{
-        width: 100%;
-        left: 0;
-    }
-    .home-content{
-        position: fixed;
-    }
-    footer {
-        display: none;
-    }
-}
-
 .conteudo {
     margin-inline-start: 30px;
     margin-right: 30px;
@@ -322,4 +298,31 @@ html ::-webkit-scrollbar-thumb {
 }
 html ::-webkit-scrollbar-track {
     background: #ededed;
+}
+
+@media (max-width: 400px) {
+    .sidebar{
+        width: 260px;
+    }
+    .sidebar.close{
+        width: 0;
+    }
+    .home-section{
+        left: 260px;
+        width: calc(100% - 260px);
+        z-index: 100;
+    }
+    .sidebar.close ~ .home-section{
+        width: 100%;
+        left: 0;
+    }
+    .home-content{
+        position: fixed;
+    }
+    .conteudo {
+        margin-top: 60px;
+    }
+    footer {
+        display: none;
+    }
 }
