@@ -18,3 +18,10 @@
 .legenda {
     text-align: center;
 }
+
+@media (max-width: 400px) {
+    .imagem {
+        width: 100px;
+        height: 100px;
+    }
+}
