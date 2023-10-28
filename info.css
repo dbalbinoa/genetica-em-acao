@@ -319,9 +319,12 @@ html ::-webkit-scrollbar-track {
     }
     .home-content{
         position: fixed;
-        background-color: #E4E9F7;
+        background-color: #c46ac7;
         min-width: 100%;
         z-index: 99;
+    }
+    .conteudo{
+        margin-top: 60px;
     }
     footer{
         display: none;
