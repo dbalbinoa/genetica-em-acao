@@ -301,40 +301,22 @@ html ::-webkit-scrollbar-track {
 }
 
 @media (max-width: 400px) {
-    .sidebar.close ~ .nav-links li .sub-menu{
+    .sidebar.close .nav-links li .sub-menu{
         display: none;
     }
     .sidebar{
         width: 78px;
-        z-index: 100;
     }
     .sidebar.close{
         width: 0;
     }
     .home-section{
-        width: 100%;
-        left: 0;
-        min-width: 100vw;
-        z-index: 99;
+        left: 78px;
+        width: calc(100% - 78px);
+        z-index: 100;
     }
     .sidebar.close ~ .home-section{
         width: 100%;
         left: 0;
-    }
-    .sidebar.close ~ home-content{
-        left: 78px;
-        width: calc(100% - 78px);
-    }
-    .home-content{
-        position: fixed;
-        display: block;
-        background-color: #e4f7ee;
-        min-width: 100%;
-    }
-    .conteudo{
-        margin-top: 70px;
-    }
-    footer{
-        display: none;
     }
 }
