@@ -324,7 +324,7 @@ html ::-webkit-scrollbar-track {
     .home-content{
         position: fixed;
         display: block;
-        background-color: #E4E9F7;
+        background-color: #e4f7ee;
         min-width: 100%;
     }
     .conteudo{
