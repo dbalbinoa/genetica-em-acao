@@ -319,4 +319,13 @@ html ::-webkit-scrollbar-track {
         width: 100%;
         left: 0;
     }
+    .home-content{
+        background-color: #bd52bd;
+        position: absolute;
+        z-index: 2;
+    }
+    .conteudo{
+        position: relative;
+        z-index: 1;
+    }
 }
