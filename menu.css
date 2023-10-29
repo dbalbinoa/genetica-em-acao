@@ -321,6 +321,10 @@ html ::-webkit-scrollbar-track {
         width: 100%;
         left: 0;
     }
+    .sidebar.close ~ home-content{
+        left: 78px;
+        width: calc(100% - 78px);
+    }
     .home-content{
         position: fixed;
         display: block;
